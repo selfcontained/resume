@@ -1,0 +1,28 @@
+doctype 5
+html(lang="en")
+	head
+		title Brad Harris
+		link(href="/styles.css", rel="stylesheet")
+
+	body
+		section#content
+
+			#stats
+				#connections
+					label Connections:
+					span
+				#memory
+					label Memory:
+					span
+					\mb
+
+				#load
+					label Load:
+					span
+					%
+
+			!{resume}
+
+		script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js")
+		script(src="/socket.io/socket.io.js")
+		script(src="/resume.js")

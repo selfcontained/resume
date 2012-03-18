@@ -7,7 +7,7 @@ Brad Harris
 
 #Technical Skills
 +	**Web Development** - I have been developing websites for the past 10 years, and am extremely passionate about it.  These are some of the more common technologies I've used in doing so:
-	+	**Javascript** - I'm extremely proficient with the language and have lots experience utilizing it natively and with libraries for the client.  I also have experience using it with Node.js on the server.
+	+	**Javascript** - I'm extremely proficient with the language and have lots experience utilizing it natively and with libraries for the client.  I also have experience using with node.js.
 	+	**PHP** - I've used many frameworks and libraries (Zend, Doctrine, Twig) and have architected and written custom frameworks and libraries as well.
 	+	**Java** - Two and a half years programming in Java on an enterprise web application. Proficient with Struts, Spring, Hibernate, and Tomcat.
 	+	**HTML & CSS** - I'm a big fan of semantic markup and modular CSS
