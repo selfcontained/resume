@@ -1,11 +1,11 @@
 Brad Harris
 ===
-[bmharris@gmail.com](mailto:bmharris@gmail.com) | [selfcontained.us/portfolio](http://selfcontained.us/portfolio)
+[bmharris@gmail.com](mailto:bmharris@gmail.com) | [resume.selfcontained.us](http://resume.selfcontained.us)
 
-#Objective
+##Objective
 	Software Engineer
 
-#Technical Skills
+##Technical Skills
 +	**Web Development** - I have been developing websites for the past 10 years, and am extremely passionate about it.  These are some of the more common technologies I've used in doing so:
 	+	**Javascript** - I'm extremely proficient with the language and have lots experience utilizing it natively and with libraries for the client.  I also have experience using with node.js.
 	+	**PHP** - I've used many frameworks and libraries (Zend, Doctrine, Twig) and have architected and written custom frameworks and libraries as well.
@@ -17,7 +17,7 @@ Brad Harris
 +	**Testing** - xUnit, Selenium
 +	**OS** - Comfortable w/ Mac, Linux & Windows
 
-#Work Experience
+##Work Experience
 +	**Yahoo! - Denver, CO**
 	+	*November 2010 - present*
 	+	*Senior Software Engineer*: Worked on maintaining, and internationalizing the Yahoo! Contributor Network (originally AssociatedContent.com).  This included architecting and writing integration libraries to handle interfacing with existing Yahoo! services.  This work was mainly on a LAMP stack, and I spent most of my effort writing PHP.  I also worked on several internal applications and prototypes involving NodeJS, including Yahoo!'s Cocktails platform.
@@ -34,7 +34,7 @@ Brad Harris
 	+	*January 2002 - March 2004*
 	+	*Web Developer*: Maintained the museum's public Internet website, and helped with the integration of an art management system into the public website.  I also helped with design projects for the Museum's advertisements.
 
-#Education
+##Education
 +	**Utah Valley University - Orem, UT**
 	+	*Graduated April 2006*
 	+	BA, *Information Systems* (3.53 GPA)
@@ -42,7 +42,7 @@ Brad Harris
 	+	*September 1998 - December 2003*
 	+	Courses in Computer Science, Information Technology and General Education
 
-#Community Service
+##Community Service
 +	**Mexico City, Mexico**
 	+	*July 1999 - January 2001*
-	+	*Christian Volunteer*: Presented Christian message to the people of Mexico.  I supervised four to six other volunteers and became fluent in Spanish.
+	+	*Christian Volunteer*: Shared Christian message and served the people of Mexico.  I supervised four to six other volunteers and became fluent in Spanish.
