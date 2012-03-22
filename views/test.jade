@@ -1,0 +1,50 @@
+doctype 5
+html(lang="en")
+	head
+		title Brad Harris
+		link(href="/test.css", rel="stylesheet")
+
+	body
+
+		header
+			h1 Brad Harris
+
+		section#content
+			h2 Projects
+			ul
+				li(data-item="whoopdwhoop") whoopdwhoop.com
+				li(data-item="bbbuilders") b&b builders
+				li(data-item="slikcalc") slikcalc
+				li picasa gallery
+				li pujbaby.com
+				li sayitonthewall.com
+				li daoctemplates.net
+
+			h2.clear Links
+			ul
+				li Resume
+				li Blog
+				li LinkedIn
+
+			h2.clear Labs
+			ul
+				li socket.io
+
+		footer.clearfix
+			div this site brought to you by:
+				ul
+					li
+						a(href="http://nodejs.org") node.js
+					li
+						a(href="http://expressjs.com") express.js
+					li
+						a(href="http://jade-lang.com") jade
+					li
+						a(href="http://socket.io/") socket.io
+
+		a(href="http://github.com/bmharris/resume")
+			img(style="position: absolute; top: 0; right: 0; border: 0;",src="https://a248.e.akamai.net/assets.github.com/img/7afbc8b248c68eb468279e8c17986ad46549fb71/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67",alt="Fork me on GitHub")
+		script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js")
+		script(src="/runtime.min.js")
+		script(src="/resume.js")
+		script(src="/templates.js")

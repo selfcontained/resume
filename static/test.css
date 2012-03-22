@@ -1,0 +1,131 @@
+
+html {
+	-webkit-font-smoothing: antialiased;
+}
+
+body {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Tahoma, sans-serif;
+	font-size: 14px;
+	line-height: 180%;
+	color: black;
+	margin: 0; padding: 25px;
+	border-top: 6px #571797 solid;
+}
+
+.clear { clear:both;}
+
+h1 {
+	font-size: 170%;
+	border-top: 4px solid #aaa;
+	padding-top: .5em;
+	margin-top: 1.5em;
+}
+
+h1:first-child {
+	margin-top: 0 !important;
+	padding-top: .25em !important;
+	border-top: none !important;
+}
+
+h2 {
+	font-size: 150%;
+	margin-top: 1.5em;
+	border-top: 4px solid #e0e0e0;
+	padding-top: .5em;
+}
+
+h3 {
+	margin-top: 1em;
+}
+
+p {
+	margin: 1em 0!important;
+	line-height: 1.5em!important;
+}
+
+pre, code {
+	font: 12px 'Bitstream Vera Sans Mono','Courier',monospace;
+}
+pre {
+	-webkit-box-shadow: rgba(0, 0, 0, 0.0664062) 0px 1px 2px 0px inset;
+	background-color: #EEE;
+	border: #ddd 1px solid;
+	color: #444;
+	display: block;
+	margin: 12px 0;
+	overflow: auto;
+	padding: 5px;
+	white-space: pre;
+	max-width:100%;
+	overflow:auto;
+}
+code {
+	background-color: ghostWhite;
+	color: #444!important;
+	padding: 0 .2em;
+	border: 1px solid #DEDEDE;
+}
+pre code {
+	padding: 0!important;
+	font-size: 12px!important;
+	background-color: #EEE!important;
+	border: none!important;
+	overflow:visible;
+}
+a, a code {
+	color: #4183C4;
+	text-decoration:none;
+}
+
+a {
+	color: #571797;
+	text-decoration: underline; }
+
+	a:visited {
+		color: #571797;
+		text-decoration: underline;
+	}
+	a:hover, a:focus {
+		text-decoration: none;
+	}
+
+code a:hover {
+	background: none;
+	color: #571797; }
+
+header	{
+	margin-bottom: 25px; }
+
+#content {
+	padding: 10px; }
+
+#content ul li {
+	float: left;
+	width: 150px;
+	height: 150px;
+	border: solid 1px;
+	margin: 10px;
+	padding: 10px;
+	list-style: none;
+	text-align: center;
+}
+
+
+#stats {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 200px;
+	background-color: rgba(0,0,0,0.75);
+	color: #fff;
+	padding: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-left-radius: 5px; }
+
+	#stats div {
+		clear:left; }
+
+	#stats label {
+		float: left;
+		width: 100px; }
