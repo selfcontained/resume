@@ -101,14 +101,17 @@ header	{
 #stats {
 	position: absolute;
 	top: 0;
-	right: 0;
+	right: 150px;
 	width: 200px;
 	background-color: rgba(0,0,0,0.75);
 	color: #fff;
 	padding: 5px;
 	-webkit-border-bottom-left-radius: 5px;
 	-moz-border-radius-bottomleft: 5px;
-	border-bottom-left-radius: 5px; }
+	border-bottom-right-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	border-bottom-right-radius: 5px; }
 
 	#stats div {
 		clear:left; }
