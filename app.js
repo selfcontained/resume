@@ -1,6 +1,6 @@
 var express = require('express'),
 	app = express.createServer(),
-	controllers = require('./controllers');
+	controllers = require('./controllers/main.js');
 console.log(controllers);
 
 app.configure(function(){
