@@ -1,7 +1,7 @@
 var express = require('express'),
 	app = express.createServer(),
-	controllers = require('./controllers/main.js');
-console.log(controllers);
+	controller = require('./controllers/main.js');
+
 
 app.configure(function(){
 	app.set('views', __dirname + '/views');
@@ -17,7 +17,9 @@ app.configure(function(){
 });
 
 
-app.get('/', controllers.index);
+app.get('/', controller.index);
+app.get('/test/', controller.test);
+app.get('/less/:filename.css', require('./controllers/less.js').compile);
 app.listen(8001);
 
 //Setup socket.io stats

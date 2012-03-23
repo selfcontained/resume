@@ -13,6 +13,10 @@ module.exports = {
 		});
 	},
 
+	test : function(req, res) {
+		res.render('test');
+	},
+
 	templates : function(req, res) {
 		var whoopdwhoop = jade.compile(
 			fs.readFileSync(templatePath+'whoopdwhoop.jade', 'utf8'),
