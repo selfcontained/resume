@@ -1,0 +1,20 @@
+{
+	"scripts": [
+		"jquery.min.js",
+		"jquery.colorbox-min.js",
+		"runtime.min.js",
+		"resume.js",
+		"socket.js"
+	],
+	"templates" : [
+		"adroit.jade",
+		"bbbuilders.jade",
+		"daoctemplates.jade",
+		"node.jade",
+		"picasa.jade",
+		"sayitonthewall.jade",
+		"slikcalc.jade",
+		"socketio.jade",
+		"whoopdwhoop.jade"
+	]
+}

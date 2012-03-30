@@ -4,7 +4,7 @@ var less = require('less'),
 module.exports = {
 
 	compile : function(req, res) {
-		var lessString = fs.readFileSync(__dirname+'/../static/'+req.param('filename')+'.less', 'utf8');
+		var lessString = fs.readFileSync(__dirname+'/../resources/'+req.param('filename')+'.less', 'utf8');
 
 		var parser = new less.Parser();
 		parser.parse(lessString, function(e, tree) {

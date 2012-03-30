@@ -1,0 +1,23 @@
+h1
+	a(href="http://nodejs.org/") node.js
+
+p
+	|	node.js is a lightweight, event-driven, non-blocking I/O platform that runs on Javascript.
+	|	This site is running on node.js and I love opportunities it opens up for network applications.
+	|	Being able to write an application in Javascript for the server and the client is truly refreshing.
+
+p
+	|	Some of the interesting things going on with this site \(albeit they are super simple\) are:
+
+	ul
+		li
+			|	the use of a popular Javascript templating language called Jade.
+			|	Since the template engine is written in Javascript, it's possible to compile them on the client or the server.
+			|	All of the dialog's contents on this site are
+			a(href="https://github.com/bmharris/resume/blob/master/controllers/resources.js", target="_blank") compiled from Jade templates on the server
+			|	, passed to the client as a Javascript function,
+			|	and rendered on demand when the dialog opens.
+		li
+			|	CSS files are
+			a(href="https://github.com/bmharris/resume/blob/master/controllers/less.js") routed through a less parser
+			|	and compiled on the server.

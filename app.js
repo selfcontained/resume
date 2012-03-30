@@ -1,6 +1,5 @@
 var express = require('express'),
-	app = express.createServer(),
-	controller = require('./controllers/main.js');
+	app = express.createServer();
 
 
 app.configure(function(){
@@ -16,9 +15,10 @@ app.configure(function(){
 	app.use(app.router);
 });
 
-
-app.get('/', controller.index);
-app.get('/test/', controller.test);
+var main = require('./controllers/main.js');
+app.get('/', main.index);
+app.get('/thegoods/', main.resume);
+app.get('/resources.js', require('./controllers/resources.js').index);
 app.get('/less/:filename.css', require('./controllers/less.js').compile);
 app.listen(8001);
 
