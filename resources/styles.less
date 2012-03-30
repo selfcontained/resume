@@ -1,3 +1,18 @@
+.gradient (@bottom, @top) {
+	background-image: linear-gradient(bottom, @bottom 10%, @top 55%);
+	background-image: -o-linear-gradient(bottom, @bottom 10%, @top 55%);
+	background-image: -moz-linear-gradient(bottom, @bottom 10%, @top 55%);
+	background-image: -webkit-linear-gradient(bottom, @bottom 10%, @top 55%);
+	background-image: -ms-linear-gradient(bottom, @bottom 10%, @top 55%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.1, @bottom),
+		color-stop(0.55, @top)
+	);
+}
 
 html {
 	-webkit-font-smoothing: antialiased;
@@ -193,51 +208,27 @@ header	{
 }
 
 .gradient-gray {
-	background-image: linear-gradient(bottom, #313131 10%, #5B5B5B 55%);
-	background-image: -o-linear-gradient(bottom, #313131 10%, #5B5B5B 55%);
-	background-image: -moz-linear-gradient(bottom, #313131 10%, #5B5B5B 55%);
-	background-image: -webkit-linear-gradient(bottom, #313131 10%, #5B5B5B 55%);
-	background-image: -ms-linear-gradient(bottom, #313131 10%, #5B5B5B 55%);
-
-	background-image: -webkit-gradient(
-		linear,
-		left bottom,
-		left top,
-		color-stop(0.1, #313131),
-		color-stop(0.55, #5B5B5B)
-	);
+	.gradient(#313131, #5B5B5B);
 }
 
 .gradient-yellow {
-	background-image: linear-gradient(bottom, #cfad3c 10%, #dace4c 55%);
-	background-image: -o-linear-gradient(bottom, #cfad3c 10%, #dace4c 55%);
-	background-image: -moz-linear-gradient(bottom, #cfad3c 10%, #dace4c 55%);
-	background-image: -webkit-linear-gradient(bottom, #cfad3c 10%, #dace4c 55%);
-	background-image: -ms-linear-gradient(bottom, #cfad3c 10%, #dace4c 55%);
-
-	background-image: -webkit-gradient(
-		linear,
-		left bottom,
-		left top,
-		color-stop(0.1, #cfad3c),
-		color-stop(0.55, #dace4c)
-	);
+	.gradient(#cfad3c, #dace4c);
 }
 
 .gradient-green {
-	background-image: linear-gradient(bottom, #43a60b 10%, #99e200 55%);
-	background-image: -o-linear-gradient(bottom, #43a60b 10%, #99e200 55%);
-	background-image: -moz-linear-gradient(bottom, #43a60b 10%, #99e200 55%);
-	background-image: -webkit-linear-gradient(bottom, #43a60b 10%, #99e200 55%);
-	background-image: -ms-linear-gradient(bottom, #43a60b 10%, #99e200 55%);
+	.gradient(#43a60b, #99e200);
+}
 
-	background-image: -webkit-gradient(
-		linear,
-		left bottom,
-		left top,
-		color-stop(0.1, #43a60b),
-		color-stop(0.55, #99e200)
-	);
+.gradient-blue {
+	.gradient(#2f49a6, #6d9ce7);
+}
+
+.gradient-red {
+	.gradient(#6b0319, #ce0413);
+}
+
+.gradient-orange {
+	.gradient(#a74b13, #eb6f12);
 }
 
 
