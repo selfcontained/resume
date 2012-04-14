@@ -11,9 +11,6 @@ Stats.prototype = {
 
 	register : function() {
 		var that = this;
-		setInterval(function() {
-			that.updateStats();
-		}, 5000);
 		this.io.sockets.on('connection', function(socket) { that.updateStats(socket); });
 		this.io.sockets.on('disconnect', function(socket) { that.updateStats(socket); });
 	},

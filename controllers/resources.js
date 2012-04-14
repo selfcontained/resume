@@ -1,7 +1,8 @@
 var fs = require('fs'),
 	path = require('path'),
 	jade = require('jade'),
-	resourceDir = path.normalize(__dirname+'/../resources/');
+	resourceDir = path.normalize(__dirname+'/../resources/'),
+	cachedPayload;
 
 function combineScripts(scripts) {
 	var payload = [];
@@ -28,17 +29,38 @@ function combineTemplates(templates) {
 	return '\n/** Templates */\nResume.setTemplates({'+compiledTemplates.join(',')+'});';
 }
 
+function compress(code) {
+	var uglify = require('uglify-js'),
+		parser = uglify.parser,
+		compressor = uglify.uglify,
+		ast,
+		compressed = '';
+
+	try {
+		ast = uglify.parser.parse(code);
+		ast = compressor.ast_mangle(ast);
+		ast = compressor.ast_squeeze(ast);
+		compressed = compressor.gen_code(ast);
+	}catch(e) {
+		compressed = e.toString();
+	}
+	return compressed;
+}
+
 module.exports = {
 
 	index : function(req, res) {
-		var resources = require(resourceDir+'resources.json'),
-			payload = [];
+		if(!cachedPayload) {
+			var resources = require(resourceDir+'resources.json'),
+				payload = [];
 
-		payload.push(combineScripts(resources.scripts));
-		payload.push(combineTemplates(resources.templates));
+			payload.push(combineScripts(resources.scripts));
+			payload.push(combineTemplates(resources.templates));
 
+			cachedPayload = compress(payload.join(''));
+		}
 		res.contentType('text/javascript');
-		res.send(payload.join(''));
+		res.send(cachedPayload);
 	}
 
-}
+};
