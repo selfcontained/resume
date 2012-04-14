@@ -1,6 +1,6 @@
 Brad Harris
 ===
-[bmharris@gmail.com](mailto:bmharris@gmail.com) | [resume.selfcontained.us](http://resume.selfcontained.us)
+[bmharris@gmail.com](mailto:bmharris@gmail.com) | [resume.selfcontained.us](http://resume.selfcontained.us) | [view pdf][pdf]
 
 ##Objective
 	Software Engineer
@@ -14,7 +14,7 @@ Brad Harris
 	+	**Apache** - I'm very famililar with configuring and managing Apache web servers
 +	**Databases** - Experienced in [MySQL](http://www.mysql.com/), [SQL Server](http://www.microsoft.com/sqlserver/en/us/default.aspx) & [Oracle](http://www.oracle.com/index.html).  Familiar w/ [MongoDB](http://www.mongodb.org/)
 +	**Version Control** - [Git](http://git-scm.com/), [SVN](http://subversion.tigris.org/)
-+	**Testing** - [Vows](http://vowsjs.org), xUnit, [Selenium](http://seleniumhq.org)
++	**Testing** - [Vows](http://vowsjs.org), xUnit, [Selenium](http://seleniumhq.org), [PhantomJS](http://www.phantomjs.org/), [Travis-CI](http://travis-ci.org/), [Hudson](http://hudson-ci.org/)
 +	**OS** - Comfortable w/ Mac, Linux & Windows
 
 ##Work Experience
@@ -26,7 +26,7 @@ Brad Harris
 	+	*Senior Developer*: Played a vital role in the re-architecture and development of the department's existing systems into a LAMP based architecture. I developed in PHP and MySQL using Zend Framework, Doctrine ORM and the YUI javascript library. I was involved heavily from the back-end and architecture of the system, to the front-end engineering and design.  Major accomplishments include extensive performance and optimization work to handle high workloads in a load-balanced environment.  I implemented caching utilizing APC for data retrieval and view rendering.
 +	**[Justice Systems](http://www.justicesystems.com/) - Albuquerque, NM**
 	+	*May 2006 - November 2008*
-	+	*Programmer Analyst*: Working in a J2EE environment on an enterprise level, web-based Court Management System. The project utilized Struts, Spring, Hibernate, and Tomcat. My major accomplishments included creating our own Javascript framework wrapping YUI for maintaining our rich interface components.  I built highly interactive and user friendly interfaces that increased performance for our users.
+	+	*Programmer Analyst*: Working in a J2EE environment on a web-based Court Management System. The project utilized Struts, Spring, Hibernate, and Tomcat. My major accomplishments included creating our own Javascript framework wrapping YUI for maintaining our rich interface components.  I built highly interactive and user friendly interfaces that increased performance for our users.
 +	**ePliant Marketing - Orem, UT**
 	+	*April 2004 - August 2005*
 	+	*Web Developer / Programmer*: Built various web-systems from eCommerce sites to back-office administration systems for clients, such as dentists and real estate companies. Worked mainly in PHP and with MySQL.
@@ -46,3 +46,5 @@ Brad Harris
 +	**Mexico City, Mexico**
 	+	*July 1999 - January 2001*
 	+	*Christian Volunteer*: Shared Christian message and served the people of Mexico.  I supervised four to six other volunteers and became fluent in Spanish.
+
+[pdf]: https://github.com/bmharris/resume/raw/master/resume.pdf
