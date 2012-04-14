@@ -1,6 +1,6 @@
 Brad Harris
 ===
-[bmharris@gmail.com](mailto:bmharris@gmail.com) | [resume.selfcontained.us](http://resume.selfcontained.us)
+[bmharris@gmail.com](mailto:bmharris@gmail.com) | [resume.selfcontained.us](http://resume.selfcontained.us) | [view pdf][pdf]
 
 ##Objective
 	Software Engineer
@@ -46,3 +46,5 @@ Brad Harris
 +	**Mexico City, Mexico**
 	+	*July 1999 - January 2001*
 	+	*Christian Volunteer*: Shared Christian message and served the people of Mexico.  I supervised four to six other volunteers and became fluent in Spanish.
+
+[pdf]: https://github.com/bmharris/resume/raw/master/resume.pdf
