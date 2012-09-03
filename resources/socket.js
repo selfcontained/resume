@@ -7,7 +7,7 @@
 	socket.on('stats', function (data) {
 		console.log('stats fired: ', data);
 		$('#connections span').html(data.connections);
-		$('#memory span').html(data.memory);
+		$('#memory span').html(data.memory+' mb');
 	});
 
 	$(window).on('beforeunload', function() {
