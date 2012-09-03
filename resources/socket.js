@@ -8,7 +8,6 @@
 		console.log('stats fired: ', data);
 		$('#connections span').html(data.connections);
 		$('#memory span').html(data.memory);
-		$('#load span').html(data.load);
 	});
 
 	$(window).on('beforeunload', function() {
