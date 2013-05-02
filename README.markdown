@@ -18,8 +18,11 @@ Brad Harris
 +	**OS** - Comfortable w/ Mac, Linux & Windows
 
 ##Work Experience
++	**[Yahoo!](http://www.yahoo.com) - Denver, CO**
+	+	*November 2012 - Present*
+	+	*Senior Software Engineer*: publishing tools - node.js
 +	**[Pearson](http://www.pearsonlearningsolutions.com) - Denver, CO**
-	+	*July 2012 - Present*
+	+	*July 2012 - November 2012*
 	+	*Senior Software Engineer*: Building realtime, evented web applications for [OpenClass](http://www.openclass.com/) utilizing technologies such as node.js and socket.io.
 +	**[Yahoo!](http://www.yahoo.com) - Denver, CO**
 	+	*November 2010 - July 2012*
@@ -50,4 +53,4 @@ Brad Harris
 	+	*July 1999 - January 2001*
 	+	*Christian Volunteer*: Shared Christian message and served the people of Mexico.  I supervised four to six other volunteers and became fluent in Spanish.
 
-[pdf]: https://github.com/bmharris/resume/raw/master/resume.pdf
+[pdf]: https://github.com/selfcontained/resume/raw/master/resume.pdf
