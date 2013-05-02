@@ -18,7 +18,7 @@ app.configure(function(){
 var main = require('./controllers/main.js');
 app.get('/', main.index);
 app.get('/thegoods/', main.resume);
-app.get('/resources.js', require('./controllers/resources.js').index);
+app.get('/resources.1337.js', require('./controllers/resources.js').index);
 app.get('/less/:filename.css', require('./controllers/less.js').compile);
 app.listen(process.env.PORT||8000);
 
