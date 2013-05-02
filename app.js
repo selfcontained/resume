@@ -20,7 +20,7 @@ app.get('/', main.index);
 app.get('/thegoods/', main.resume);
 app.get('/resources.1337.js', require('./controllers/resources.js').index);
 app.get('/less/:filename.css', require('./controllers/less.js').compile);
-app.listen(process.env.PORT||8000);
+app.listen(process.env.PORT||8002);
 
 //Setup socket.io stats
 require('./stats').register(app);
