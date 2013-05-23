@@ -1,3 +1,5 @@
+[![Nodejitsu Deploy Status Badges](https://webhooks.nodejitsu.com/selfcontained/resume.png)](https://webops.nodejitsu.com)
+
 Brad Harris
 ===
 [bmharris@gmail.com](mailto:bmharris@gmail.com) | [resume.selfcontained.us](http://resume.selfcontained.us) | [view pdf][pdf]
