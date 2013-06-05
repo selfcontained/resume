@@ -16,5 +16,8 @@
 	"engines": {
 		"node": "0.8.x"
 	},
-	"subdomain": "selfcontained-resume"
+	"subdomain": "selfcontained-resume",
+	"domains": [
+		"resume.selfcontained.us"
+	]
 }
