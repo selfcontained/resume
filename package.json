@@ -2,7 +2,7 @@
   "name": "selfcontained-resume",
   "version": "0.0.2",
   "dependencies": {
-    "express": "2.5.x",
+    "express": "~3.3.4",
     "jade": "0.27.x",
     "less": "1.3.x",
     "markdown": "0.4.x",
