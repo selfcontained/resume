@@ -1,8 +1,9 @@
-var os = require('os');
+var os = require('os'),
+	io = require('socket.io');
 
-var Stats = function(app) {
-	this.app = app;
-	this.io = require('socket.io').listen(app);
+var Stats = function(server) {
+	this.server = server;
+	this.io = io.listen(server);
 	this.register();
 	this.cpus = os.cpus().length;
 };
@@ -31,7 +32,7 @@ Stats.prototype = {
 
 module.exports = {
 
-	register : function(app) {
-		return new Stats(app);
+	register : function(server) {
+		return new Stats(server);
 	}
 };

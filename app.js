@@ -1,6 +1,6 @@
 var express = require('express'),
-	app = express.createServer();
-
+	app = express(),
+	server = require('http').createServer(app);
 
 app.configure(function(){
 	app.set('views', __dirname + '/views');
@@ -18,10 +18,10 @@ app.configure(function(){
 var main = require('./controllers/main.js');
 app.get('/', main.index);
 app.get('/thegoods/', main.resume);
-app.get('/resources.1337.js', require('./controllers/resources.js').index);
+app.get('/resources.1338.js', require('./controllers/resources.js').index);
 app.get('/less/:filename.css', require('./controllers/less.js').compile);
 
 //Setup socket.io stats
-require('./stats').register(app);
+require('./stats').register(server);
 
-app.listen(process.env.PORT||8080);
+server.listen(process.env.PORT||8080);

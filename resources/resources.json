@@ -7,7 +7,6 @@
 		"socket.js"
 	],
 	"templates" : [
-		"adroit.jade",
 		"bbbuilders.jade",
 		"daoctemplates.jade",
 		"markdownme.jade",
