@@ -18,7 +18,7 @@ app.configure(function(){
 var main = require('./controllers/main.js');
 app.get('/', main.index);
 app.get('/thegoods/', main.resume);
-app.get('/resources.1338.js', require('./controllers/resources.js').index);
+app.get(/^\/resources\.[0-9]+\.js$/, require('./controllers/resources.js').index);
 app.get('/less/:filename.css', require('./controllers/less.js').compile);
 
 //Setup socket.io stats
