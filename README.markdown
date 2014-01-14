@@ -14,7 +14,7 @@ Brad Harris
 	+	**Apache** - I'm very famililar with configuring and managing Apache web servers
 +	**Databases** - Experienced in [MySQL](http://www.mysql.com/), [SQL Server](http://www.microsoft.com/sqlserver/en/us/default.aspx) & [Oracle](http://www.oracle.com/index.html).  Familiar w/ [MongoDB](http://www.mongodb.org/)
 +	**Version Control** - [Git](http://git-scm.com/), [SVN](http://subversion.tigris.org/)
-+	**Testing** - [Vows](http://vowsjs.org), xUnit, [Selenium](http://seleniumhq.org), [PhantomJS](http://www.phantomjs.org/), [Travis-CI](http://travis-ci.org/), [Hudson](http://hudson-ci.org/)
++	**Testing** - [Mocha](http://visionmedia.github.io/mocha/), [Vows](http://vowsjs.org), xUnit, [Selenium](http://seleniumhq.org), [PhantomJS](http://www.phantomjs.org/), [Travis-CI](http://travis-ci.org/), [Hudson](http://hudson-ci.org/)
 +	**OS** - Comfortable w/ Mac, Linux & Windows
 
 ##Work Experience
