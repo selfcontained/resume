@@ -1,5 +1,3 @@
-[![Nodejitsu Deploy Status Badges](https://webhooks.nodejitsu.com/selfcontained/resume.png)](https://webops.nodejitsu.com)
-
 Brad Harris
 ===
 [bmharris@gmail.com](mailto:bmharris@gmail.com) | [resume.selfcontained.us](http://resume.selfcontained.us) | [view pdf][pdf]
@@ -22,10 +20,10 @@ Brad Harris
 ##Work Experience
 +	**[Yahoo!](http://www.yahoo.com) - Denver, CO**
 	+	*November 2012 - Present*
-	+	*Senior Software Engineer*: publishing tools - node.js
+	+	*Senior Software Engineer*: publishing tools - node.js, modular UI with browserify
 +	**[Pearson](http://www.pearsonlearningsolutions.com) - Denver, CO**
 	+	*July 2012 - November 2012*
-	+	*Senior Software Engineer*: Building realtime, evented web applications for [OpenClass](http://www.openclass.com/) utilizing technologies such as node.js and socket.io.
+	+	*Senior Software Engineer*: Building realtime, evented web applications for [OpenClass](http://www.openclass.com/) utilizing technologies such as node.js, redis, websockets, and backbone.js.
 +	**[Yahoo!](http://www.yahoo.com) - Denver, CO**
 	+	*November 2010 - July 2012*
 	+	*Senior Software Engineer*: Worked on maintaining, and internationalizing the Yahoo! Contributor Network (originally AssociatedContent.com).  This included architecting and writing integration libraries to handle interfacing with existing Yahoo! services.  This work was mainly on a LAMP stack, and I spent most of my effort writing PHP.  I also worked on internal publishing tools built on node.js.
