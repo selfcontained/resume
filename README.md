@@ -1,6 +1,6 @@
 Brad Harris
 ===
-[bmharris@gmail.com](mailto:bmharris@gmail.com) | [resume.selfcontained.us](http://resume.selfcontained.us) | [view pdf][pdf]
+[bmharris@gmail.com](mailto:bmharris@gmail.com) | [brad.selfcontained.us](http://brad.selfcontained.us) | [view pdf][pdf]
 
 ##Objective
 	Software Engineer
