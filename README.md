@@ -6,7 +6,7 @@ Brad Harris
 	Software Engineer
 
 ##Technical Skills
-+	**Web Development** - I have been developing websites for the past 10 years, and am extremely passionate about it.  These are some of the more common technologies I've used in doing so:
++	**Software Development** - I'm extremely passionate about developing software.  These are some of the more common technologies I've used in doing so:
 	+	**Javascript** - I love it, on the server and the client.  I'm familiar with many client-side libraries and love [node.js](http://nodejs.org/).
 	+	**PHP** - I've used many frameworks and libraries such as [Zend](http://framework.zend.com), [Doctrine](http://www.doctrine-project.org), [Twig](http://twig.sensiolabs.org), and have architected and written custom frameworks and libraries as well.
 	+	**Java** - Two and a half years programming in Java on an enterprise web application. Proficient with [Struts](http://struts.apache.org/), [Spring](http://www.springsource.org/), [Hibernate](http://www.hibernate.org/), and [Tomcat](http://tomcat.apache.org/).
@@ -20,7 +20,7 @@ Brad Harris
 ##Work Experience
 +	**[Yahoo!](http://www.yahoo.com) - Denver, CO**
 	+	*November 2012 - Present*
-	+	*Senior Software Engineer*: publishing tools - node.js, modular UI with browserify
+	+	*Principal Software Engineer*: publishing tools - node.js, modular UI with browserify, node.js middle tier for service orchestration.
 +	**[Pearson](http://www.pearsonlearningsolutions.com) - Denver, CO**
 	+	*July 2012 - November 2012*
 	+	*Senior Software Engineer*: Building realtime, evented web applications for [OpenClass](http://www.openclass.com/) utilizing technologies such as node.js, redis, websockets, and backbone.js.
