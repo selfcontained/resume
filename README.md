@@ -1,9 +1,6 @@
 Brad Harris
 ===
-[bmharris@gmail.com](mailto:bmharris@gmail.com) | [view pdf][pdf]
-
-##Objective
-	Software Engineer
+[brad.harris@robotsandpencils.com](mailto:brad.harris@robotsandpencils.com) | [view pdf][pdf]
 
 ##Technical Skills
 +	**Software Development** - I'm extremely passionate about developing software.  These are some of the more common technologies I've used in doing so:
