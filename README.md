@@ -1,6 +1,6 @@
 Brad Harris
 ===
-[brad.harris@robotsandpencils.com](mailto:brad.harris@robotsandpencils.com) | [view pdf][pdf]
+[bmharris@gmail.com](mailto:bmharris@gmail.com) | [view pdf][pdf]
 
 ##Technical Skills
 +	**Software Development** - I'm extremely passionate about developing software.  These are some of the more common technologies I've used in doing so:
@@ -8,7 +8,7 @@ Brad Harris
 	+	**Go** - Built various Services & APIs using Go.  I've found the strong typing, testability and performance of the language to be great for many use-cases.
 	+	**PHP** - I've used many frameworks and libraries such as [Zend](http://framework.zend.com), [Doctrine](http://www.doctrine-project.org), [Twig](http://twig.sensiolabs.org), and have architected and written custom frameworks and libraries as well.
 	+	**Java** - Two and a half years programming in Java on an enterprise web application. Proficient with [Struts](http://struts.apache.org/), [Spring](http://www.springsource.org/), [Hibernate](http://www.hibernate.org/), and [Tomcat](http://tomcat.apache.org/).
-	+	**HTML & CSS** - I'm a big fan of semantic markup and modular CSS.  [LESS](http://lesscss.org/) is more.
+	+	**HTML & CSS** - I'm a big fan of semantic markup and modular CSS.
 	+	**Apache** - I'm very famililar with configuring and managing Apache web servers
 +	**Databases** - Experienced in [MySQL](http://www.mysql.com/), [SQL Server](http://www.microsoft.com/sqlserver/en/us/default.aspx), [Oracle](http://www.oracle.com/index.html) & [Redis](https://redis.io/), BigQuery, Google Cloud Datastore and [MongoDB](http://www.mongodb.org/).
 +	**Version Control** - [Git](http://git-scm.com/), [SVN](http://subversion.tigris.org/).
@@ -18,7 +18,8 @@ Brad Harris
 ##Work Experience
 +	**[Robots and Pencils](https://robotsandpencils.com) - Castle Rock, CO**
 	+	*July 2015 - present*
-	+	*Lead Developer*: Co-founder of [Beep Boop](https://beepboophq.com/), architecting and building services and the front-end for the product.  Also consult for clients and projects around web techologies and chat bots.
+	+	*Lead Developer*: [Missions](https://missions.ai/), [Beep Boop](https://beepboophq.com/), architecting and building services and the front-end for the products.
+	+ Consult for clients and projects around web techologies and chat bots
 +	**[Yahoo!](http://www.yahoo.com) - Denver, CO**
 	+	*November 2012 - July 2015*
 	+	*Principal Software Engineer*: publishing tools - node.js, modular UI with browserify, node.js middle tier for service orchestration.
